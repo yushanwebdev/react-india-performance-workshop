@@ -17,7 +17,7 @@ export const SimpleExampleScreen = () => {
     }, 5000);
   }, []);
 
-  // Profiler API:
+  // Profiler API: Yushan
   // https://react.dev/reference/react/Profiler
   // function onRender(id, phase, actualDuration, baseDuration, startTime, commitTime) {
   //   // Aggregate or log render timings...

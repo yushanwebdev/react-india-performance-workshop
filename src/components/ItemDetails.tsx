@@ -21,6 +21,7 @@ export const ItemDetails = ({postId}: ItemDetailsProps) => {
     setInterval(() => {
       performExpensiveComputation();
     }, 3000);
+    // Memory leak here - Yushan
   }, []);
 
   useEffect(() => {
